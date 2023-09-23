@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body onload="quoteOfTheDay()">
+    <div class="main">
+        <p id="quote" onclick="quoteOfTheDay()">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras a dolor vitae augue
+            placerat tempor.</p>
+        <p id="author" onclick="textCopy()">Lorem ipsum</p>
+    </div>
+    <div id="copyAlert">
+        Copied to clipboard!
+    </div>
+
+    <p id="instructions">Click on quote to get a new one and click on author to copy to clipboard!</p>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
