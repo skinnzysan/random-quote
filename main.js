@@ -8,6 +8,9 @@ function quoteOfTheDay() {
         quote.innerHTML = '"'+data.content+'"';
         author.innerHTML = '~'+data.author;
     })
+    
+    quote.style.opacity = '1';
+    author.style.opacity = '1';
 }
 
 function textCopy() {
